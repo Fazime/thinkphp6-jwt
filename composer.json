@@ -1,0 +1,33 @@
+{
+  "name": "fazi/thinkphp6-jwt",
+  "description": "简单的JWT for ThinkPHP6",
+  "keywords": [
+    "thinkphp6",
+    "jwt"
+  ],
+  "authors": [
+    {
+      "name": "发仔",
+      "homepage": "https://www.fazi.me",
+      "email": "i@fazi.me"
+    }
+  ],
+  "license": "MIT",
+  "require": {
+    "php": ">=7.1.0",
+    "topthink/framework": "^6.0.0",
+    "firebase/php-jwt": "^6.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "fazi\\jwt\\": "src/"
+    }
+  },
+  "extra": {
+    "think": {
+      "services": [
+        "Fazi\\jwt\\Service"
+      ]
+    }
+  }
+}
